@@ -58,7 +58,7 @@
 
 //tally the score
 var html = "<p>Wins: " + wins + "</p>" + "<p>Losses: " + losses + "</p>" + 
-	"<p>Guesses left: " + guessesLeft + "</p>" + "<p>Wrong guesses: " + wrongGuess;
+	"<p>Guesses left: " + guessesLeft + "</p>" + "<p>Your guesses so far: " + wrongGuess;
 
        document.querySelector("#game").innerHTML = html
 
