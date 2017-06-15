@@ -26,7 +26,7 @@
 		alert("Good job!");
 		wins++;
 		wrongGuess.length=0;
-		guessesLeft="10";
+		guessesLeft=10;
 		compChooses(computerChoice);
 			console.log("computer: ", computerChoice);
 	}
