@@ -29,6 +29,7 @@
 		guessesLeft=10;
 		compChooses(computerChoice);
 			console.log("computer: ", computerChoice);
+		alert("Time for another round!");
 	}
 
 //if they do not match, alert user and decrease guess count.
@@ -57,9 +58,9 @@
 		}
 
 //tally the score
-var html = "<p>Wins: " + wins + "</p>" + "<p>Losses: " + losses + "</p>" + 
-	"<p>Guesses left: " + guessesLeft + "</p>" + "<p>Your guesses so far: " + wrongGuess;
+// var html = "<p>Wins: " + wins + "</p>" + "<p>Losses: " + losses + "</p>" + 
+// 	"<p>Guesses left: " + guessesLeft + "</p>" + "<p>Your guesses so far: " + wrongGuess;
 
-       document.querySelector("#game").innerHTML = html
+//        document.querySelector("#game").innerHTML = html
 
 }
